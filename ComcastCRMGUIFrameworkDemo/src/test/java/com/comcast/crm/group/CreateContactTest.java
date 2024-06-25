@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 import com.comcast.crm.baseclassimp.BaseClass;
-import com.comcast.crm.baseclassimp.BaseClass2;
+
 import com.comcast.crm.objectrepository.ContactInformationPage;
 import com.comcast.crm.objectrepository.ContactsPage;
 import com.comcast.crm.objectrepository.CreatingNewContactPage;

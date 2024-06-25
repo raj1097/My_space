@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Suite]]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.comcast.crm.listnerutility.ListImpClass"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)(failed)">
+    <classes>
+      <class name="practicebasics.ScreenshotSample2">
+        <methods>
+          <include name="configBS"/>
+          <include name="configBC"/>
+          <include name="configAM"/>
+          <include name="configAS"/>
+          <include name="configAC"/>
+          <include name="screenshotTest"/>
+          <include name="configBM"/>
+        </methods>
+      </class> <!-- practicebasics.ScreenshotSample2 -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->

@@ -22,5 +22,13 @@ public class ProductPage
 		return createProductbtn;
 	}
 	
-	//element 1 and 2 pending
+	// Submit button
+	@FindBy(name = "submit")
+	private WebElement submitBt;
+	
+	
+	public WebElement getSubmitBt() {
+		return submitBt;
+	}
+	
 }

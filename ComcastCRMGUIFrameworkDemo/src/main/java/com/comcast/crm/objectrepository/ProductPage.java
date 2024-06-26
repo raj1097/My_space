@@ -22,10 +22,6 @@ public class ProductPage
 		return createProductbtn;
 	}
 	
-<<<<<<< HEAD
-	
-=======
-//<<<<<<< HEAD
 	@FindBy(name = "search_text")
 	private WebElement searchTextEle;
 	
@@ -33,8 +29,6 @@ public class ProductPage
 	{
 		return searchTextEle;
 	}
-//=======
->>>>>>> branch 'master' of https://github.com/raj1097/My_space
 	// Submit button
 	@FindBy(name = "submit")
 	private WebElement submitBt;
@@ -45,5 +39,4 @@ public class ProductPage
 		return submitBt;
 	}
 	
-//>>>>>>> branch 'master' of https://github.com/raj1097/My_space
 }

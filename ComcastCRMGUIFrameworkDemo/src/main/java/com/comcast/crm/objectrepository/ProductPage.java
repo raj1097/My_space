@@ -72,7 +72,15 @@ public class ProductPage
 	
 	public WebElement getLookUpBtn1() 
 	{
-		return lookupBtn;
+		return lookupBtn1;
 	}
 	
+	@FindBy(name = "lookup2")
+	private WebElement lookupBtn2;
+	
+	
+	public WebElement getLookUpBtn2() 
+	{
+		return lookupBtn2;
+	}
 }

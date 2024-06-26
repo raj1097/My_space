@@ -48,4 +48,13 @@ public class ProductPage
 		return deleteBtn;
 	}
 	
+	@FindBy(name = "delete1")
+	private WebElement deleteBtn1;
+	
+	
+	public WebElement getDeleteBtn1() 
+	{
+		return deleteBtn1;
+	}
+	
 }

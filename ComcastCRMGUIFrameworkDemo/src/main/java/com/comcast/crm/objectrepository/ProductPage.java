@@ -48,4 +48,13 @@ public class ProductPage
 		return deleteBtn;
 	}
 	
+	@FindBy(name = "lookup")
+	private WebElement lookupBtn;
+	
+	
+	public WebElement getLookUpBtn() 
+	{
+		return lookupBtn;
+	}
+	
 }

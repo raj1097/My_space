@@ -22,6 +22,8 @@ public class ProductPage
 		return createProductbtn;
 	}
 	
+	// Demo
+	
 	// Submit button
 	@FindBy(name = "submit")
 	private WebElement submitBt;

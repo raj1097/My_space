@@ -22,7 +22,6 @@ public class ProductPage
 		return createProductbtn;
 	}
 	
-	// Demo
 	
 	// Submit button
 	@FindBy(name = "submit")

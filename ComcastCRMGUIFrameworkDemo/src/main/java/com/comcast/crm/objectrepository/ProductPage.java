@@ -22,5 +22,11 @@ public class ProductPage
 		return createProductbtn;
 	}
 	
-	//element 1 and 2 pending
+	@FindBy(name = "search_text")
+	private WebElement searchTextEle;
+	
+	public WebElement getSearchText()
+	{
+		return searchTextEle;
+	}
 }

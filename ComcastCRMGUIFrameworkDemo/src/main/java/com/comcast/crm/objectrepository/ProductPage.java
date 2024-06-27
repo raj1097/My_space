@@ -48,7 +48,6 @@ public class ProductPage
 		return deleteBtn;
 	}
 	
-//<<<<<<< HEAD
 	@FindBy(name = "delete1")
 	private WebElement deleteBtn1;
 	
@@ -64,7 +63,6 @@ public class ProductPage
 	public WebElement getLookUpBtn() 
 	{
 		return lookupBtn;
-// branch 'master' of https://github.com/raj1097/My_space
 	}
 	
 }
